@@ -8,7 +8,7 @@ namespace DesignPatternPractice
 {
     //creator
     //interface that will help creating objects
-    interface Transport
+    interface ITransport
     {
         void deliver();
     }

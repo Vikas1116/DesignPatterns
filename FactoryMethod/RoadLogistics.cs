@@ -8,7 +8,7 @@ namespace DesignPatternPractice
 {
     class RoadLogistics : Logistics
     {
-        public override Transport createTransport()
+        public override ITransport createTransport()
         {
             return new Truck();
         }

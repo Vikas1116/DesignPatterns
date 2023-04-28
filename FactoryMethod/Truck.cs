@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatternPractice
 {
-    class Truck : Transport
+    class Truck : ITransport
     {
         public void deliver()
         {

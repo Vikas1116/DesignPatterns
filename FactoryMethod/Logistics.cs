@@ -10,6 +10,6 @@ namespace DesignPatternPractice
     //factory method that will make object construction
     abstract class Logistics
     {
-        public abstract Transport createTransport();
+        public abstract ITransport createTransport();
     }
 }

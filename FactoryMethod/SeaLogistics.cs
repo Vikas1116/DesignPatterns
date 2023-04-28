@@ -8,7 +8,7 @@ namespace DesignPatternPractice
 {
     internal class SeaLogistics : Logistics
     {
-        public override Transport createTransport()
+        public override ITransport createTransport()
         {
             return new Ship();
         }

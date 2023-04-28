@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatternPractice
 {
-    class Ship : Transport
+    class Ship : ITransport
     {
         public void deliver()
         {
