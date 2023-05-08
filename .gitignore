@@ -2,3 +2,5 @@ FactoryMethod/obj/
 FactoryMethod/bin/Debug/
 .vs/DesignPatternPractice/v17/.suo
 /.vs/DesignPatternPractice
+/AbstractFactory/obj
+/Singleton/obj
