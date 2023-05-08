@@ -8,6 +8,7 @@ namespace DesignPatternPractice
 {
     //abstract class
     //factory method that will make object construction
+    //creator - maybe main creator
     abstract class Logistics
     {
         public abstract ITransport createTransport();
